@@ -1,0 +1,14 @@
+ZTE's modem supports the following commands: 
+AT commands for ZTE modem: 
+AT + E = ZCDRUN deletes a file NODOWNLOAD.FLG 
+AT + F = ZCDRUN restores NODOWNLOAD.FLG 
+AT + ZCDRUN = 8 removes the file autorun.flg 
+AT + 9 = ZCDRUN restore autorun. flg Install mode: 
+AT + ZSNT = 0,0,0 (Auto) - By default, 
+AT + ZSNT = 0,0,1 Auto Network: GSM + WCDMA, GSM preference for 
+AT + ZSNT = 0,0,2 Auto Network: GSM + WCDMA, WCDMA preference for 
+AT + ZSNT = 1,0,0 automatic network selection: only the GSM 
+AT + ZSNT = 2,0,0 automatic network selection: only the WCDMA + AT = 0,1,0 ZSNT manual network selection : GSM + WCDMA + AT = 1,1,0 ZSNT manual network selection: only the GSM AT + ZSNT = 2,1,0 manual network selection: only the WCDMA Razblkirovka: ZNCK + = "Unlock-code" + ZNCK? Left attempts 0 -5 Check lock network / SIM AT + ZSEC? Replies: , <SEC_STATUE>: 0 Initializing encryption (Minor SEC_ITEMS) a Network Lock error. (Minor SEC_ITEMS) 2 Network lock unlocked 3 or fix MCC / MNC : 0 No Action Network Lock 1 2 (U) SIM-card lock Lock and Chain 3 (U) SIM-card lock Set Range: ZBANDI + at + = 0 zbandi (Auto) - Default Automatic switching at + zbandi = 1 850 + GSM UMTS 900/1800 at + zbandi = 2 + GSM 2100 UMTS 900/1800 (Europe) at + 3 = zbandi UMTS 850/2100 + GSM 900/1800 at + zbandi = 4 UMTS 850/1900 + GSM 850/1900 
+AT command to the modem 
+ZTE MF192 AT = 0% USBMODEM ZTE MF192 modem translates into "just a modem". 
+AT command AT% USBMODEM = 1 takes the modem ZTE MF192 Mode "Modem + CD ROM "
